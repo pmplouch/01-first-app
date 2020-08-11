@@ -1,11 +1,14 @@
 apply plugin: 'com.android.application'
 
+// TODO. For Android development we use Gradle to compile our code and generate the final apk.
+// TODO. Two build.gradle files: project + module (app)
+
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.ualr.myfirstapp"
-        minSdkVersion 20
-        targetSdkVersion 29
+        applicationId "com.ualr.myfirstapp" // TODO 07. Identifies the app on the device and in the Play Store
+        minSdkVersion 20                    // TODO 08. Lowest compatible API level
+        targetSdkVersion 29                 // TODO 09. Highest targeted API level
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
