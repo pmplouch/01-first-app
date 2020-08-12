@@ -9,7 +9,7 @@ The user can input some text in the EditText element. When he taps the button th
 
 ## Branches
 
-- &lt;u&gt;1-hello-world.&lt;/u&gt; It provides the described functionality, using findViewById to get references to the several elements in the layout.
+- <ins>1-hello-world.</ins> It provides the described functionality, using findViewById to get references to the several elements in the layout.
   
-- &lt;u&gt;2-hello-world-view-binding.&lt;/u&gt; It provides the same functionality, but it uses view binding in order to get reference of the elements in the layout from the Activity class.
+- <ins>2-hello-world-view-binding.</ins> It provides the same functionality, but it uses view binding in order to get reference of the elements in the layout from the Activity class.
 
